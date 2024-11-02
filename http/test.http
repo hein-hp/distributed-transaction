@@ -1,0 +1,9 @@
+### 购买商品
+POST http://localhost:8082/order/create
+Content-Type: application/json
+
+{
+  "accountId": 1,
+  "productId": 1,
+  "quantity": 10
+}

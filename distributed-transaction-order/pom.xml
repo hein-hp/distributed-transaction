@@ -15,7 +15,7 @@
     <modules>
         <module>distributed-transaction-order-client</module>
         <module>distributed-transaction-order-core</module>
-        <module>distributed-transaction-order-web</module>
+        <module>distributed-transaction-order-starter</module>
     </modules>
 
     <properties>
@@ -24,4 +24,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-nacos-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>
